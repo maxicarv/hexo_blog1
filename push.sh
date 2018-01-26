@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+git pull origin master
 git add .
 if [ "$1" = "" ]
 then
