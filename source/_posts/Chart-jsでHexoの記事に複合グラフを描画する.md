@@ -99,7 +99,7 @@ var ChartDemo = new Chart(ctx, {
 - [Chart.js](http://www.chartjs.org/)
 - [chart.js で複数軸の複合グラフを描く](https://qiita.com/kd9951/items/aece80abe0bd42b3b5d3)
 - [Chart.js でレスポンシブ指定をするとサイズが自由に変更できなくなる](http://obel.hatenablog.jp/entry/20160626/1466937585)
-- [秩父生活ブログ](http://chichibulog.com/engineering/use-chartjs1)
+- [【Chart.jsを使いこなす】棒グラフをExcel風の配色で表示する](http://chichibulog.com/engineering/use-chartjs1)
 
 <script>
 var ctx = document.getElementById("MultipulChart");
