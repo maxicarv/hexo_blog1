@@ -32,4 +32,7 @@ date: 2018-02-25 22:52:08
 字幕のズレを修正し、不足分は英文字幕のGoogle翻訳で補いつつ文言を合わせ、どうしても理解できない箇所だけ意訳をした。正直なところ意訳したところはイマイチだし、文言合わせもいいかげんだ。それをご了承の上、利用していただきたい。元にした字幕のライセンスについては調べていないので、問題があるようなら指摘して欲しい。
 
 ※字幕ダウンロード（7zipファイル）
-https://www.dropbox.com/s/gyy8azciiq5wr3y/Coursera_Machine_Learning_vtt.7z?dl=0
+https://www.dropbox.com/s/em1f7mst16zsomq/Coursera_Machine_Learning_vtt.7z?dl=0
+
+※2018/3/19 追記
+Week3の2つのファイルが入っておらず、別のファイルを入れてしまっていた。差し替え済み。
