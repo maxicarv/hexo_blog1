@@ -28,7 +28,7 @@ Nuxt.jsを導入し、CDN経由でMDC-Webが動作することを確認する。
 インストールについては[公式サイト](https://ja.nuxtjs.org/guide/installation#nuxt-js-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BF%E3%83%BC%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88)を参照のこと。
 
 ## 生成した静的HTMLを表示するためのサーバ設定
-Nuxt.jsでのSPA構築において、MDC-Webを使用する場合は[vue-mdc-adapter](https://github.com/stasson/vue-mdc-adapter)などのコンテナを利用することが推奨されている。実際にMDC-WebのCDNを設定して`npm run dev`で動作確認してみたが、ちゃんと動かなかった。しかし今回は静的HTMLの構築を前提としているので、MDC-WebのCDNを設定し、生成した静的HTMLをWebサーバで動作させることにする。Webサーバの設定は適宜実施すればよいが、ここではPHPの簡易Webサーバ（？）を利用し、`npm run server`コマンドで生成した静的HTMLをブラウザで表示するように設定する。具体的には、スターターテンプレートのインストールディレクトリにあるpackage.jsonの`"scripts"`に以下を追加する。
+Nuxt.jsでのSPA構築において、MDC-Webを使用する場合は[vue-mdc-adapter](https://github.com/stasson/vue-mdc-adapter)などのコンテナを利用することが推奨されている。実際にMDC-WebのCDNを設定して`npm run dev`で動作確認してみたが、ちゃんと動かなかった。しかし今回は静的HTMLの構築を前提としているので、MDC-WebのCDNを設定し、生成した静的HTMLをWebサーバで動作させることにする。Webサーバの設定は適宜実施すればよいが、ここではPHPの簡易Webサーバ（？）を利用し、`npm run server`コマンドで生成した静的HTMLをブラウザで表示するように設定する。具体的には、スターターテンプレートのインストールディレクトリにある`package.json`の`"scripts"`に以下を追加する。
 {% codeblock package.json lang:javascript %}
 "server": "php -S localhost:8000 -t dist/"
 {% endcodeblock %}
