@@ -25,7 +25,9 @@ Ubuntuならselinux-utilsらしい、蛇足だが。
 
 ## systemctlを実行できない
 例えば、
-```$  docker run  -it  --name mycentos centos  /bin/bash```
+```
+$  docker run  -it  --name mycentos centos  /bin/bash
+```
 としてhttpdをインストール、起動すると以下のようになる。
 ```
 # yum install -y httpd
